@@ -33,11 +33,6 @@ public class HotelTest extends BaseTest {
         Assert.assertEquals(bookingResultsPage.getHotelScore(), Hotels.HOTEL_SCORE);
 
 
-
     }
-
-
-
-
 
 }

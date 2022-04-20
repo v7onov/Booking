@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class BookingResultsPage extends BasePage {
 
-    @FindBy(xpath = "//div[text()='Crowne Plaza Yas Island, an IHG Hotel']/ancestor::div[@data-testid='property-card']//div[@data-testid='review-score']/div[1]")
+    @FindBy(xpath = "(//div[@data-testid='title'])[1]/ancestor::div[@data-testid='property-card']//div[@data-testid='review-score']/div[1]")
     private WebElement score;
 
     @FindBy(xpath = "(//div[@data-testid='title'])[1]")
